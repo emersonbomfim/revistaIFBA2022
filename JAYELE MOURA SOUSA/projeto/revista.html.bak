@@ -1,0 +1,126 @@
+	<html>
+		<head>
+			 <meta charset = 'utf-8'>
+			 <title> Revista</title>
+			<link rel="stylesheet" type="text/css" href="style.css"/>	
+	
+		</head>
+		
+		<body>
+			<header>
+				<a class="a" href="#" onclick="menua()">&#9776; Menu</a>
+			</header>
+			<nav id="menu">
+				<a class="a" href="#" onclick="menuf()">&times; Fechar</a>
+				<a class="a" href="homepage.html">Home</a>
+				<a class="a" href="#sobre">Sobre</a>
+				<a class="a" href="#história">História</a>
+				<a class="a" href="#importancia">Importância</a>
+				<a class="a" href="#entrevistas">Entrevistas</a>
+			</nav>
+			<main id="main">
+			<div>
+					<img  src="home.jpg"  alt="Jayele fotografia" style="width:100% "><br>
+			</div>
+			<div id="sobre">
+			<div  style=" margin-bottom:15px; margin-top:5%;">
+			<div class="vertical"><h1 class="capa">Lorem ipsum dolor sit amet. Ut natus quia et quia veritatis aut nobis quia eum rerum suscipit aut quos adipisci et error aliquid! Et internos necessitatibus sed consequatur provident id mollitia tempore sed distinctio omnis sit consectetur voluptatem eum neque aspernatur. Aut magni rerum id galisum eius ut debitis quia a rerum nostrum. </h1></div>
+			<h1 class="text"><b>Sobre</h1>
+</div>
+		</div>
+<img  src="bg22.png"  alt="Jayele fotografia" style="width:100% ">
+<img  src="ifba2.jpg"  alt="Jayele fotografia" style="width:100% ">
+
+
+			<div  style="margin-bottom:5%; margin-top:5%;">
+			<div class="vertical" ><h1 class="capa"> O Ifba vem dando oportunidades de crescimento tanto para alunos quanto para os professores, que sempre demonstram muita satisfação em fazer parte da instituição. Um exemplo é o professor de inglês Fabrício, que diz “ Fazer parte do IFBA como um professor efetivo é algo muito honroso, e quando eu utilizo adjetivo honroso eu de fato quero dizer que é uma honra trabalhar no Instituto Federal, porque tanto IFBA quanto o IF baiano (que são os institutos federais que nós temos aqui em território baiano), quanto todos os outros de norte a sul do do do país oferecem uma educação de altíssima qualidade, além de ser um ensino totalmente gratuito.”</h1></div>
+
+</div>
+
+<div id="entrevistas">
+			<div  style="height:400px margin-bottom:15px; margin-top:5%;">
+			<h1 class="text"><b>Entrevistas</h1>
+			<table>
+				<tr>
+					<td>
+						<div class="box">
+						<br>
+						<img src="fabricio.jpg"  alt="Jayele fotografia" style="width:150px    	" class="perfil">
+						<p><b>Fabrício da Silva Amorim</b><p>
+						</div>
+					</td>
+										<td>
+						<div class="box">
+						<img src="foto.png"  alt="Jayele fotografia" style="width:150px" class="perfil">
+						<p>Nome SObrenome e Ultimo nome</p>
+						</div>
+					</td>
+										<td>
+						<div class="box">
+						<img src="foto.png"  alt="Jayele fotografia" style="width:150px" class="perfil">
+						<p>Nome SObrenome e Ultimo nome</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+
+</div>
+<div id="história">
+			<div  style="height:400px margin-bottom:15px; margin-top:5%; background-color:#1C1C1C;">
+
+</div>
+		</div>	
+<img  src="home.jpg"  alt="Jayele fotografia" style="width:100%"><br>		
+<div id="importancia">
+			<div  style="height:400px margin-bottom:15px; margin-top:5%;">
+			<div class="vertical"><h1 class="capa">Lorem ipsum dolor sit amet. Ut natus quia et quia veritatis aut nobis quia eum rerum suscipit aut quos adipisci et error aliquid! Et internos necessitatibus sed consequatur provident id mollitia tempore sed distinctio omnis sit consectetur voluptatem eum neque aspernatur. Aut magni rerum id galisum eius ut debitis quia a rerum nostrum. </h1></div>
+			<h1 class="text"><b>Importância</h1>
+</div>
+		</div>	
+<img  src="home.jpg"  alt="Jayele fotografia" style="width:100%"><br>		
+
+		</div>					
+		
+		<div class="left">
+
+		<a href="homepage.html"><div class="buttoni buttoni1">JAYELE MOURA SOUSA | HOME PAGE</div></a><br>
+		<img  src="cph.png"  alt="Jayele fotografia" style="width:95%"><br>
+		
+
+		</div>
+		
+		<div class="right">
+			<p class="title"><b>Sobre mim</b></p>
+			<p>Eu sou Jayele Moura Sousa, tenho 20 anos. Nasci na cidade de Valença-Bahia e atualmente estudo na cidade de Santo Antônio de Jesus-Ba. Sou estudante de Design Gráfico e Produção Multímidia e pretendo atuar nessas áreas de produção.Gosto de ser criativa e proativa em tudo que faço.</p>
+		<table>
+			<tr>
+			<td><a href="dp.html"><div class="buttoni buttoni1">Dados Pessoais</div></a></td>
+			<td><a href="form.html"><div class="buttoni buttoni1">Formação</div></a></td>
+			<td><a href="ce.html"><div class="buttoni buttoni1">Cursos e eventos</div></a></td>
+			<td><a href="op.html"><div class="buttoni buttoni1">Objetivo Profissional</div></a></td>
+			</tr>		
+		</table>
+			<p class="title"><b>Portifólio</b></p>
+		<table>
+			<tr>
+			<td><a href="col.html"><img  class="m1" src="c1.png"  alt="Jayele fotografia" style="width:100%"><div class="buttoni buttoni1">Coleções</div></a></td>
+			<td><a href="fol.html"><img class="m1" src="f1.png"  alt="Jayele fotografia" style="width:100%"><div class="buttoni buttoni1">Folders</div></a></td>
+			<td><a href="red.html"><img class="m1"src="r1.png"  alt="Jayele fotografia" style="width:100%"><div class="buttoni buttoni1">Redes Sociais</div></a></td>
+			</tr>		
+		</table>
+		
+		</div>
+		</main>
+		<script> 
+				function menua(){
+					document.getElementById('menu').style.width= '250px';
+					document.getElementById('main').style.marginLeft= '250px';
+				}
+				function menuf(){
+					document.getElementById('menu').style.width= '0px';
+					document.getElementById('main').style.marginLeft= '0px';
+				}
+			</script>
+		</body>
+	</html>
+	

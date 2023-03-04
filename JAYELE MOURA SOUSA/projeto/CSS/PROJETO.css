@@ -1,0 +1,312 @@
+@mixin paraTelasPequenas($media) {
+   @media (max-width: $media/16+em) { @content; }
+}
+
+BODY.tela
+{
+	background-image:url("IMAGE/P_Inicial.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+BODY.fund
+{
+	background-image:url("IMAGE/fundo.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+BODY.fundo2
+{
+	background-image:url("IMAGE/fundo2.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+div.botao
+{
+	position:fixed;
+	bottom:68%;
+	right:48%;
+	border: 0px solid #73AD21;
+}
+
+div.botao2
+{
+	position:fixed;
+	bottom:85%;
+	left:12%;
+	border: 0px solid #73AD21;
+}
+
+div.botao3
+{
+	position:fixed;
+	bottom:78%;
+	left:51%;
+	border: 0px solid #73AD21;
+}
+
+div.textoinicial
+{
+	position:fixed;
+	text-align:center;
+	bottom:32%;
+	right:32%;
+	border: 0px solid #73AD21;
+}
+P.textoI
+{
+	font-family:"New Time Roman";
+	font-size:25px;
+	font-weight:bold;
+	color:black;
+	background-color:white;
+	padding: 13px 15px;
+}
+
+
+
+div.Tdados
+{
+	position:fixed;
+	text-align:left;
+	bottom:02%;
+	left:19%;
+
+}
+
+P.Dinf
+{
+	font-family:"New Time Roman";
+	font-size:25px;
+	color:black;
+	background-color:white;
+	padding: 13px 15px;
+	line-height: 3.0;
+	border: 3px solid #73AD21;
+}
+
+div.Texp
+{
+	position:fixed;
+	text-align:left;
+	bottom:05%;
+	left:18%;
+}
+
+div.Thob
+{
+	position:fixed;
+	text-align:left;
+	bottom:30%;
+	left:18%;
+}
+
+div.Tfor
+{
+	position:fixed;
+	text-align:left;
+	bottom:40%;
+	left:18%;
+}
+
+div.Tpro
+{
+	position:fixed;
+	text-align:left;
+	bottom:15%;
+	left:20%;
+}
+div.imgLay
+{
+	position:fixed;
+	bottom:45%;
+	right:40%;
+	border: 0px solid #73AD21;
+}
+
+div.imgd1
+{
+	position:fixed;
+	bottom:50%;
+	right:32%;
+	border: 0px solid #73AD21;
+}
+
+div.imgd2
+{
+	position:fixed;
+	bottom:25%;
+	right:17%;
+	border: 0px solid #73AD21;
+}
+
+div.imge1
+{
+	position:fixed;
+	bottom:60%;
+	right:30%;
+	border: 0px solid #73AD21;
+}
+
+div.imge2
+{
+	position:fixed;
+	bottom:43%;
+	right:14%;
+	border: 0px solid #73AD21;
+}
+
+div.imgh1
+{
+	position:fixed;
+	bottom:50%;
+	right:33%;
+	border: 0px solid #73AD21;
+}
+
+div.imgh2
+{
+	position:fixed;
+	bottom:45%;
+	right:17%;
+	border: 0px solid #73AD21;
+}
+
+div.vdE
+{
+	position:fixed;
+	bottom:28%;
+	right:27%;
+	border: 2px solid #73AD21;
+	background-color:white;
+	padding: 13px 15px;
+}
+
+div.vdE2
+{
+	position:fixed;
+	bottom:22%;
+	right:12%;
+	border: 2px solid #73AD21;
+	background-color:white;
+	padding: 13px 15px;
+}
+
+div.vdh
+{
+	position:fixed;
+	bottom:20%;
+	right:31%;
+	border: 0px solid #73AD21;
+	border: 2px solid #73AD21;
+	background-color:white;
+	padding: 13px 15px;
+}
+
+div.vdh2
+{
+	position:fixed;
+	bottom:20%;
+	right:15%;
+	border: 0px solid #73AD21;
+	border: 2px solid #73AD21;
+	background-color:white;
+	padding: 13px 15px;
+}
+
+div.vdp
+{
+	position:fixed;
+	bottom:18%;
+	right:29%;
+	border: 3px solid #73AD21;
+	border: 2px solid #73AD21;
+	background-color:white;
+	padding: 13px 15px;
+}
+
+div.vdf
+{
+	position:fixed;
+	bottom:20%;
+	right:28%;
+	border: 3px solid #73AD21;
+	border: 2px solid #73AD21;
+	background-color:white;
+	padding: 13px 15px;
+}
+
+a:link, a:visited
+{
+	text-decoration:none;
+	color:black;
+}
+
+table, th, td 
+{
+	border: 2px solid #008037;
+	background-color:white;
+	font-family:"New Time Roman";
+	font-size:25px;
+	color:black;
+	 padding: 12px;
+	text-align: left;
+	
+}
+
+#layout
+{
+	
+	display:inline;
+	padding: 100px;
+	float:left;
+	position:center;
+}
+
+#l
+{
+	display:block;
+	overflow:hidden;
+	font-family:"New Time Roman";
+	font-size:25px;
+	font-weight:bold;
+	color:black;
+	position:fixed;
+	margin:  580 auto;
+	background-image:url("IMAGE/layout.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	
+}
+
+#inf2
+{
+	font-family:"New Time Roman";
+	font-size:20px;
+	color:black;
+	background-color:white;
+	padding: 13px 15px;
+	line-height: 3.0;
+	border: 3px solid #73AD21;
+}
+
+#list
+{
+	border: 2px solid #008037;
+	background-color:white;
+	font-family:"New Time Roman";
+	font-size:25px;
+	color:black;
+	text-align: left;
+	padding: 13px 35px;
+	line-height: 3.0;
+}
+
+#image
+{
+	padding: 50xp;
+	background-repeat:no-repeat;
+}

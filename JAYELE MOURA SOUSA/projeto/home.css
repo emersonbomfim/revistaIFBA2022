@@ -1,0 +1,58 @@
+body
+{
+ background-image: url("ifba.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home1 {
+background-color: #8B0000;
+width: 300px;
+height: 500px;
+  position: absolute;
+  top: 15%;
+  right:35%;
+    box-shadow: 2px 2px 5px #4F4F4F;
+}
+
+.home2 {
+background-color:  #1C1C1C;
+width: 550px;
+height: 375px;
+  position: absolute;
+  top: 25%;
+  right:10%;
+    box-shadow: 2px 2px 3px black;
+}
+
+.text {
+color: #f7fbfe;
+font-family: Geneva, Verdana, sans-serif;
+font-size:15px;
+text-align:left;
+margin-left:25px;
+margin-right:25px;
+margin-top:60px;
+}
+
+.buttoni {
+font-family: Geneva, Verdana, sans-serif;
+font-size:15px;
+color: white;
+  padding: 16px 32px;
+  text-align:left;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  
+.buttoni1 {
+  background-color:  #1C1C1C; 
+  color: #f7fbfe; 
+}
+
+.buttoni1:hover {
+  background-color:#1C1C1C;
+  color: #808080	;
+}
