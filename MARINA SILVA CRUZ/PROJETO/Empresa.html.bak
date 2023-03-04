@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Empresa</title>
+<style>
+    .exemplo {
+        background: #7F7F7F;
+        font-size: 70px;
+        padding: 50px;
+        margin: 20px;
+        color:#FFF2E7;
+        border: 7px solid ;
+		font-family: Impact;
+    }
+    p {
+        margin: 0;
+    }
+</style>
+</head>
+<style>
+    body{
+        background-color: #9e9e9e;
+    }
+
+    .texto {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 20px;
+    }
+
+    .imagem {
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    gap: 32px;
+    }
+
+    .fonte {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 12px;
+    }
+</style>
+<body>
+    <div class="exemplo">
+        <p>
+            <center>Empresa</center>
+        </p>
+    </div>
+</body>
+<body>
+<p>
+    <ul type="circle"><table>
+<li class="texto"><h3><tr><a name="Nome da Empresa:">Nome da Empresa:</a></h3>
+<td>My Donuts
+<li class="texto"><h3><tr><a name="Proprietária:">Proprietária:</a></h3>
+<td>Édilla Ribeiro
+<li class="texto"><h3><a name="Tempo no mercado:">Tempo no mercado:</a></h3></tr></td>
+1 ano e 5 meses
+<li class="texto"><h3><a name="Como surgiu:">Como surgiu:</a></h3>
+<p>Tudo começou com um pedido de seu sobrinho de 10 anos que queria de presente de aniversário uma caixa de Donuts. Com isso, a empresária foi a procura de alguém na cidade que produzisse esse produto, porém não foi encontrado. Para não deixar seu sobrinho triste, ela resolveu fazer os próprios Donuts, e apesar do resultado não ter sido os melhores os convidados, e principalmente, seu sobrinho amaram os Donuts e foi através desse pedido que hoje existe a My Donuts.
+<li class="texto"><h3><a name="Como funciona:">Como funciona:</a></h3>
+É uma loja delivery
+<li class="texto"><h3><a name="Motivo da escolha do produto:">Motivo da escolha do produto:</a></h3>
+O principal motivo foi seu sobrinho, mas também para trazer um produto inovador na cidade.
+</li>
+    </ul>
+</p>
+<img class="imagem" src="IMG_4661.jpg">
+<center><a class="fonte">Foto: Marina Silva, 2023</a></center>
+<br>
+<center><a href="Html - projeto.html" style="color:#FFF2E7">Voltar</a></center>
+</body>
+</html>
