@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+    background-color: antiquewhite;
+    }
+    
+.primeiro{
+    width: 100%;
+    height: 3cm;
+    background: white;
+    margin:0;
+    color: rgb(15, 10, 10);
+    }
+
+    .saj{
+        display: flex;
+        justify-content: center;
+    }
+
+    .segundo{
+        width: 100%;
+        height: 4vh;
+        background: linear-gradient(to right, rgb(167, 26, 167) 10%, #ED7A87);
+        margin:0;
+        color: #E53A4E;
+        position: absolute;
+    }

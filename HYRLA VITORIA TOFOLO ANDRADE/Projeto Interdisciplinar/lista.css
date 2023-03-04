@@ -1,0 +1,139 @@
+@media screen and (max-width: 768px){
+    section, aside{
+        width: 100%;
+    }
+    /* .menu { width:400px; } */
+    }
+
+    @media screen and (max-width: 600px){
+        div, p{
+            float: none;
+        }
+    }
+
+    html, body{
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: arial;
+    }
+    
+.primeiro{
+    width: 100%;
+    height: 3cm;
+    background: white;
+    margin:0;
+    
+    }
+
+    .saj{
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+    }
+
+    .segundo{
+        width: 100%;
+        height: 4vh;
+        background: linear-gradient(to right, rgb(167, 26, 167) 10%, #ED7A87);
+        margin:0;
+        color: #E53A4E;
+        position: absolute;
+    }
+
+    h2{ text-align: center;
+        margin-top: 3cm;
+        color: #ED7A87;
+    }
+
+    .recuo{
+        text-indent: 4em;
+        margin-left: 6cm;
+        margin-right: 6cm;
+        text-align: justify;
+        line-height: 150%;   
+    }
+
+    .imagem1{
+        margin-left: 37%;
+ }
+
+ .livros{
+    margin-left: 10cm;
+ }
+
+ h3{
+    color: #ED7A87;
+    margin-left: 3cm;
+}
+
+.Edileide{
+       background-color: bisque;
+       width: 83%;
+        margin-left: 3cm;
+        text-align: justify;
+        display: flex;
+
+    }
+    
+.main-footer{
+    background:linear-gradient(to right, rgb(167, 26, 167) 10%, #ED7A87);;
+    height: 7cm;
+    font-family: arial;
+    margin-top: 2cm;
+    
+}
+
+form{
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+    
+}
+
+form input[type=text]{
+    height: 25px; 
+}
+
+textarea{
+    outline: 0;
+    border: 0;;
+    border: 1px solid #ccc;
+    width: 5cm;
+}
+
+input, textarea, button{
+    margin-bottom: 0.7em;
+    margin-left: 0.3em;
+}
+
+textarea{
+    display: block;
+    height: 2cm;
+}
+
+.botao input{
+    background-color: #ED7A87;
+    border: 0;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+nav{
+    margin-top: 2cm;
+}
+
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #ED7A87;
+}
+
+a:visited{
+    text-decoration: underline;
+    
+}
+
+li{
+    margin-bottom: 5px;
+}

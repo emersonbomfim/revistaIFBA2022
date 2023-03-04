@@ -1,0 +1,202 @@
+@media screen and (max-width: 768px){
+    section, aside{
+        width: 100%;
+    }
+    /* .menu { width:400px; } */
+    }
+
+    @media screen and (max-width: 600px){
+        div, p{
+            float: none;
+        }
+    }
+
+
+html, body{
+    margin: 0;
+    background-color: antiquewhite;
+    }
+    
+.primeiro{
+    width: 100%;
+    height: 3cm;
+    background: white;
+    margin:0;
+    color: rgb(15, 10, 10);
+    }
+
+.autores{
+    margin-top: 2cm;
+    align-items: center;
+    display: flex;
+    color: #be636d;
+    text-align: justify;
+    background: antiquewhite;
+    position: relative;
+    font-size:larger;
+    font-family: 'Arial';
+    justify-content: center;
+}
+
+.autores img{
+    margin-right: 40px;
+}
+
+.autores p{
+    width: 500px;
+    line-height: 25px;
+}
+.saj{
+    display: flex;
+    justify-content: center;
+    margin-top:12px;
+}
+
+.segundo{
+    width: 100%;
+    height: 4vh;
+    background: linear-gradient(to right, rgb(167, 26, 167) 10%, #ED7A87);
+    margin:0;
+
+    position: absolute;
+}
+.terceiro{
+    width: 100%;
+    height: 11cm;
+    background:#ED7A87;
+    position: absolute;
+    margin-top: 2cm;
+    text-align: center;
+    
+}
+
+.terceiro img{
+    margin-top: 1cm;
+    border: solid 2px #FFEFB0;   
+}
+
+.imagem1{
+    margin-left: 0cm;
+}
+
+.link {
+    line-height: 25px;
+    font-family: arial;
+    text-align: center;
+    font-size: x-large;
+    text-align: justify; 
+    display: flex;
+     
+}
+
+#link1{
+    width: 340px;
+    margin-left: 280px;
+    margin-right: 110px;
+   
+}
+
+#link2{
+    width: 340px;
+}
+
+
+.quarto{
+    width: 100%;
+    height: 11cm;
+    background: #FFEFB0;
+    position: absolute;
+    margin-top: 5cm;
+    text-align: center;
+}
+
+.quarto img{
+    margin-top: 1cm;
+    border: solid 2px #ED7A87;
+}
+
+.imagem3{
+    margin-left: 0;
+}
+
+.links {
+    line-height: 25px;
+    font-family: arial;
+    text-align: center;
+    font-size: x-large;
+    text-align: justify; 
+    display: flex; 
+    
+}
+
+#link3{
+    width: 340px;
+    margin-left: 280px;
+    margin-right: 110px;
+}   
+
+#link4{
+    width: 340px;
+}   
+
+header, footer{
+    display: flex;
+    justify-content: center;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #FFEFB0;
+}
+
+a:visited{
+    text-decoration: underline;
+    
+}
+.main-footer{
+    background:linear-gradient(to right, rgb(167, 26, 167) 10%, #ED7A87);;
+    height: 7cm;
+    margin-top: 4cm;
+    font-family: arial;
+    margin-bottom: 0;
+    
+}
+
+form{
+    padding-top: 30px;
+    margin-left: 0;
+    color: white;
+    
+}
+
+form input[type=text]{
+    height: 25px; 
+}
+
+textarea{
+    outline: 0;
+    border: 0;;
+    border: 1px solid #ccc;
+    width: 5cm;
+}
+
+input, textarea, button{
+    margin-bottom: 0.7em;
+    margin-left: 0.3em;
+}
+
+textarea{
+    display: block;
+    height: 2cm;
+}
+
+.botao input{
+    background-color: #ED7A87;
+    border: 0;
+    padding: 5px;
+    color: white;
+}
+    
+
+
+     
