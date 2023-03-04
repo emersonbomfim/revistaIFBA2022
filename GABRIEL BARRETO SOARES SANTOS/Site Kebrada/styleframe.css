@@ -1,0 +1,40 @@
+.title
+{
+ text-align: center;
+ color: white;
+ font-size: 20px;
+ font-family: 'Oswald', sans-serif;
+ font-style: bold;
+ margin: 0px auto 10px auto;
+ width: 60%;
+ padding: 20px;
+}
+
+.autor
+{
+ filter: invert(70%);
+ width: 2%;
+ margin: 0px 10px 10px 44%;
+}
+
+.autor_txt
+{
+ color: gray;
+ font-size: 20px;
+ font-family: 'Oswald', sans-serif;
+ margin: -40px 40% 4% 47%;
+}
+
+.margin
+{
+ margin 200px 10px 10px 500px;
+}
+
+.txt
+{
+ color: white;
+ margin: 20px 20% 0% 20%;
+ font-size: 20px;
+ font-family: 'Oswald', sans-serif;
+ text-align: left;
+}

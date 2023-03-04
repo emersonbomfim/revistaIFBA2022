@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trap em saj</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="styleframe.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+ <div class="home"></div>
+  <a href="Site.html"><img src="logo.png" alt="logo" class="logo"></a>
+  <a href="https://youtube.com/playlist?list=PLVjx1j-XipfQS5zNR91jPeMbU-8fJpsRl" target="_blank"><img src="social4.png" alt="social" class="social4"></a>
+  <a href="https://open.spotify.com/playlist/0xaZwBmrWSCWz6r8wMELOu?si=dd09f31784d84602" target="_blank"><img src="social5.png" alt="social" class="social5"></a></div>
+ <button class="menub" onclick="menub(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+  </button> 
+ <div class="panel">
+  <a href="Site.html"><p class="panelitem">Home</p></a>
+  <a href="sobre.html"><p class="panelitem">Sobre</p></a>
+ </div>
+</div>
+
+<div>-</div>
+<div>-</div>
+<div>-</div>
+
+<div class="title"><h1>Trap em SAJ</h></div>
+<p class="autor_txt" style="font-size:15px;"> 24/02/2002</p>
+<hr size="1">
+<img src="autor.png" alt="autor" class="autor"><p class="autor_txt">
+<a href="https://www.instagram.com/notapanda.rar/" target="_blank">@notapanda.rar</a></p>
+
+
+
+<center><img src="frame3_img.jpeg" alt="frame3_img"><center>
+
+<p class="txt">	Com o surgimento das batalhas de rima em Santo Antônio de Jesus, o movimento hip-hop, que já acontecia, porém de forma mais underground, tomou maiores patamares e outros caminhos. Aquele cenário que era quase que completamente composto por artistas do <i>Boombap</i>, como o <b>Quinta Esquina</b>, ganhou uma variedade de subgeneros do rap, como o <i>Trap</i>, <i>Detroit</i>, <i>Alternative Trap</i>, <i>Michigan</i> e entre outros.
+<br>
+<br>
+<center><img src="img1_frame3.jpeg" alt="img1_frame3" style="width:700px; height:400px; object-fit: cover; margin: 0px 0px -20px 0px;"><br><p style="color: white; font-family: 'Oswald', sans-serif;">Capa albúm Quinta Esquina</p><center> 
+<p class="txt">Com essa diversidade de subgêneros, muitos nomes começaram a surgir e exportar suas músicas para todo o Brasil, como o <b>Lil Kid</b>, <b>Panda</b>, <b>Xan</b>, <b>Peury</b>, <b>4Weed</b> e <b>Kauê</b>, a maioria derivados das batalhas de rimas. Os grupos dividiam ideias e trilhavam caminhos parecidos mas com destinos diferente.
+<br>
+<br>
+<center><img src="img2_frame3.jpg" alt="img1_frame3" style="width:700px; height:400px; object-fit: cover; margin: 0px 0px -20px 0px;"><br><p style="color: white; font-family: 'Oswald', sans-serif;">Batalha de rap que acontecia no São Benedito</p><center> 
+<p class="txt">Hoje, com grandes números de streams e seguidores, os artistas da cultura do hip-hop conseguem viver de suas artes, mostrando que é possivel seguir esse caminho. 
+<h1 class="title">Dê seu Feedback</h1>
+ <form action="mailto:notapandabeats@gmail.com" method="post" enctype="text/plain">
+  <input type="text" name="firstname" placeholder="nome/apelido">
+      <BR>
+      <BR>
+  <input type="email" name="mail" placeholder="e-mail">
+      <BR>
+      <BR>
+      <BR>        
+  <textarea rows="6" cols="50" name="commentfield" placeholder="Dê seu feedback"></textarea>
+        <BR>
+ <p class="title">O que achou do artigo ?</p>
+  <SELECT name="rate">
+   <option value="ruim">Ruim</option>
+    <option value="boa">Boa</option>
+    <option value="otima">Ótima</option>
+    <option value="incrivel">Incrível</option>
+  </SELECT>
+        <BR>
+        <BR>
+        <INPUT TYPE="submit" value="Enviar">
+        <INPUT TYPE="reset" value="Limpar">
+    </FORM>
+<script>
+var acc = document.getElementsByClassName("menub");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>

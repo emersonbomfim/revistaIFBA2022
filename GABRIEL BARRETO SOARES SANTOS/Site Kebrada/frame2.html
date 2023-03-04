@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hip-hop no mundo</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="styleframe.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+ <div class="home"></div>
+  <a href="Site.html"><img src="logo.png" alt="logo" class="logo"></a>
+  <a href="https://youtube.com/playlist?list=PLVjx1j-XipfQS5zNR91jPeMbU-8fJpsRl" target="_blank"><img src="social4.png" alt="social" class="social4"></a>
+  <a href="https://open.spotify.com/playlist/0xaZwBmrWSCWz6r8wMELOu?si=dd09f31784d84602" target="_blank"><img src="social5.png" alt="social" class="social5"></a></div>
+ <button class="menub" onclick="menub(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+  </button> 
+ <div class="panel">
+  <a href="Site.html"><p class="panelitem">Home</p></a>
+  <a href="sobre.html"><p class="panelitem">Sobre</p></a>
+ </div>
+</div>
+
+<div>-</div>
+<div>-</div>
+<div>-</div>
+
+<div class="title"><h1>Hip-hop no mundo</h></div>
+<p class="autor_txt" style="font-size:15px;"> 22/02/2002</p>
+<hr size="1">
+<img src="autor.png" alt="autor" class="autor"><p class="autor_txt">
+<a href="https://www.instagram.com/mannu_franca/" target="_blank">@mannu_franca</p></a>
+
+<center><img src="frame2_img.png" alt="frame2_img" style="width:400px; height:400px; object-fit: cover;"><center>
+</br>
+</br>	
+<p class="txt">O rap é um gênero musical que tem suas raízes no <b>Bronx, Nova York,</b> na década de <b>1970</b>. Ele surgiu como uma forma de expressão para as comunidades negras e latinas da cidade, que estavam enfrentando problemas socioeconômicos, desemprego e violência. O rap foi uma forma de contar histórias sobre a vida nessas comunidades e de criar uma conexão com outras pessoas que compartilhavam dessas experiências.</p>
+
+</br>
+</br>	
+</br>
+
+<center><img src="img1_frame2.jpg" alt="img1_frame2" style="width:700px; height:400px; object-fit: cover; margin: 0px 0px -20px 0px;"><br><p style="color: white; font-family: 'Oswald', sans-serif;">Nascimento do Hip-Hop no Bronx, Nova York, na década de 1970</p><center> 
+	
+<p class="txt">O rap começou a se tornar popular na década de <b>1980</b>, com o lançamento de músicas como <i>"Rapper's Delight"</i> do Sugarhill Gang e <i>"The Message"</i> do Grandmaster Flash and the Furious Five. Essas músicas foram importantes para levar o rap para além das comunidades negras e latinas e torná-lo um gênero musical mais mainstream.</p>
+</br>
+<p class="txt">Nos anos 90, o rap continuou a crescer em popularidade, com artistas como <b>Tupac Shakur</b>, <b>Notorious B.I.G.</b>, <b>Jay-Z</b> e <b>Eminem</b> se tornando figuras importantes no cenário do rap. O rap também se tornou mais diversificado em termos de subgêneros, com o surgimento de estilos como o <i>gangsta rap</i>, o <i>conscious rap</i> e o <i>alternative hip-hop.</i></p>
+
+</br>
+</br>	
+</br>
+
+<center><img src="img2_frame2.jpg" alt="img2_frame2" style="width:700px; height:400px; object-fit: cover; margin: 0px 0px -20px 0px;"><br><p style="color: white; font-family: 'Oswald', sans-serif;">Tupac Shakur e Notorius B.I.G.</p><center> 
+
+<p class="txt">Ao longo dos anos, o rap se tornou uma forma importante de expressão cultural e política para as comunidades marginalizadas. Ele foi usado para falar sobre questões sociais, raciais e políticas, bem como para expressar o amor e a paixão pela música.</p>
+</br>
+<p class="txt">Hoje, o rap é um dos gêneros musicais mais populares do mundo, com artistas como <b>Kendrick Lamar</b>, <b>Drake</b>, <b>Cardi B</b> e <b>Travis Scott</b> liderando as paradas de sucesso. O rap continua a evoluir e a se expandir, com novos artistas e subgêneros surgindo constantemente.</p>
+</br>
+</br>	
+</br>
+
+<center><img src="img3_frame2.jpeg" alt="img3_frame2" style="width:700px; height:400px; object-fit: cover; margin: 0px 0px -20px 0px;"><br><p style="color: white; font-family: 'Oswald', sans-serif;">Cardi B., Lil Durk, Lil Baby e Lil Uzi Vert.</p><center> 
+<h1 class="title">Dê seu Feedback</h1>
+ <form action="mailto:notapandabeats@gmail.com" method="post" enctype="text/plain">
+  <input type="text" name="firstname" placeholder="nome/apelido">
+      <BR>
+      <BR>
+  <input type="email" name="mail" placeholder="e-mail">
+      <BR>
+      <BR>
+      <BR>        
+  <textarea rows="6" cols="50" name="commentfield" placeholder="Dê seu feedback"></textarea>
+        <BR>
+ <p class="title">O que achou do artigo ?</p>
+  <SELECT name="rate">
+   <option value="ruim">Ruim</option>
+    <option value="boa">Boa</option>
+    <option value="otima">Ótima</option>
+    <option value="incrivel">Incrível</option>
+  </SELECT>
+        <BR>
+        <BR>
+        <INPUT TYPE="submit" value="Enviar">
+        <INPUT TYPE="reset" value="Limpar">
+    </FORM>
+<script>
+var acc = document.getElementsByClassName("menub");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>

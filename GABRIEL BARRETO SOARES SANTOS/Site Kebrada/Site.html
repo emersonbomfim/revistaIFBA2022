@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KEBRADA</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="styleframe.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+<body>
+<a name="home">
+<div class="header" style="margin:-92px 0px 0px 0px;">
+ <div class="home"></div>
+  <a href="Site.html"><img src="logo.png" alt="logo" class="logo"></a>
+  <a href="https://youtube.com/playlist?list=PLVjx1j-XipfQS5zNR91jPeMbU-8fJpsRl" target="_blank"><img src="social4.png" alt="social" class="social4"></a>
+  <a href="https://open.spotify.com/playlist/0xaZwBmrWSCWz6r8wMELOu?si=dd09f31784d84602" target="_blank"><img src="social5.png" alt="social" class="social5" ></a></div>
+ <button class="menub" onclick="menub(this)" style="margin: -96px -3px 0px 0px;">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+  </button> 
+ <div class="panel" style="margin: -23px -3px 0px 0px;">
+ <ul>
+  <a href="#home"><li class="panelitem">Home</li></a>
+  <a href="sobre.html"><li class="panelitem">Sobre</li></a>
+ </ul>
+ </div>
+</div>
+
+<div class="frames">
+ <a href="frame1.html"><div class="frame1"><img class="frame1_img" src="frame1_img.png" alt="frame1_img"></div>
+ <div class="frame1_txt"><p style="width:370px;">Grupo santotoniense ganha destaque na cena do trap</p></div></a>
+
+ <a href="frame2.html"><div class="frame2"><img class="frame2_img" src="frame2_img.png" alt="frame2_img"></div>
+ <div class="frame2_txt"><p style="width:200px;">Hip-hop no mundo</p></div></a>
+
+ <a href="frame3.html"><div class="frame3"><img class="frame3_img" src="frame3_img.jpeg" alt="frame3_img"></div>
+ <div class="frame3_txt"><p style="width:200px;">Trap em SAJ</p></div></a>
+
+ <a href="frame4.html"><div class="frame4"><img class="frame4_img" src="frame4-2_img.png" alt="frame4_img"></div>
+ <div class="frame4_txt"><p style="width:200px;">Playlist</p></div></a>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("menub");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>

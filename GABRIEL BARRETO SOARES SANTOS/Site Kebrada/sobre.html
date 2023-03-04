@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grupo baiano de rap, 7k mob promete ser revelação no cenário do trap br</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="styleframe.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+ <div class="home"></div>
+  <a href="Site.html"><img src="logo.png" alt="logo" class="logo"></a>
+  <a href="https://youtube.com/playlist?list=PLVjx1j-XipfQS5zNR91jPeMbU-8fJpsRl" target="_blank"><img src="social4.png" alt="social" class="social4"></a>
+  <a href="https://open.spotify.com/playlist/0xaZwBmrWSCWz6r8wMELOu?si=dd09f31784d84602" target="_blank"><img src="social5.png" alt="social" class="social5"></a></div>
+ <button class="menub" onclick="menub(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+  </button> 
+ <div class="panel">
+  <a href="Site.html"><p class="panelitem">Home</p></a>
+  <p class="panelitem">Contato</p>
+  <p class="panelitem">Sobre</p>
+  <p class="panelitem"></p>
+ </div>
+</div>
+
+<div>-</div>
+<div>-</div>
+<div>-</div>
+
+<div class="title"><h1>Sobre nós</h></div>
+
+<hr size="1">
+
+<br>
+<br>
+<br>
+
+<table class="title" style="border-style: solid;">
+<tr>
+<th>Aluno</th>
+<th>Função</th>
+</tr>
+
+<tr>
+ <td>Alan Lucas Santos Oliveira</td>
+ <td>Gravação e edição de vídeo/Audiovisual</td>
+</tr>
+
+<tr>
+ <td>Emanuele Marculino da França de Jesus</td>
+ <td>Roteiro/Português</td>
+</tr>
+
+<tr>
+ <td>Gabriel Barreto Soares Santos</td>
+ <td>Programação do Site/Hipermidia</td>
+</tr>
+
+<tr>
+ <td>Joany Maria Castro de Brito</td>
+ <td>Design do Site/Design</td>
+</tr>
+
+<tr>
+ <td>Sara Vitória Bispo do Santos</td>
+ <td>Sistema de informação/Computação</td>
+</tr>
+
+</table>
+
+<br>
+<br>
+<br>
+<h1 class="txt">Empresa</h1>
+
+<p class="txt">Nossa revista é uma organização que visa transmitir informações para sociedade, ou seja, somos uma empresa jornalística. Iniciamos no ano de 2022, visando mostrar a história do Hip-Hop em Santo Antônio de Jesus. Por sermos a primeira revista que foca só na música da região, podemos introduzir essa arte na comunidade. Nossa empresa é formada por 16 funcionários, cada um com sua função determinada.
+Nosso objetivo é dar uma boa imagem ao gênero musical Hip-Hop, pois ele é sempre discriminado na sociedade.
+Esperamos que daqui a alguns anos sejamos referência no mundo do Hip-Hop, como a revista que valoriza a importância dessa arte.
+</p>
+
+<h1 class="txt">Atuação no mercado</h1>
+
+<p class="txt">Somos uma empresa nova no mercado que irá fazer sua primeira publicação depois do carnaval para ter mais destaque.
+Diferente das outras empresas, visamos explorar o Hip-Hop em SAJ, desconstruindo a ideia de que a arte “influencia” a violência, que por sinal é um preconceito antigo, generalizado. 
+Temos o objetivo de potencializar artistas que merecem o devido reconhecimento por suas obras.
+</p>
+
+<h1 class="txt">Público Alvo</h1>
+<p class="txt">O público alvo são todos os Santoantonienses, independente da idade e as pessoas que atuam na área musical, para apoiar artistas menos conhecidos.
+</p>
+
+<h1 class="txt">Estrutura Organizacional</h1>
+<br>
+<br>
+<center><img src="img1_sobre.jpeg" alt="img1_sobre" style="width:700px;"><center>
+<h1 class="txt">Soluções do Google</h1>
+<br>
+<p class="txt">Usamos o Microsoft teams para reuniões.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>
+var acc = document.getElementsByClassName("menub");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>

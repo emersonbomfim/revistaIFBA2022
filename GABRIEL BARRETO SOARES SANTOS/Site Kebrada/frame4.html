@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Playlist trap saj</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="styleframe.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header">
+ <div class="home"></div>
+  <a href="Site.html"><img src="logo.png" alt="logo" class="logo"></a>
+  <a href="https://youtube.com/playlist?list=PLVjx1j-XipfQS5zNR91jPeMbU-8fJpsRl" target="_blank"><img src="social4.png" alt="social" class="social4"></a>
+  <a href="https://open.spotify.com/playlist/0xaZwBmrWSCWz6r8wMELOu?si=dd09f31784d84602" target="_blank"><img src="social5.png" alt="social" class="social5"></a></div>
+ <button class="menub" onclick="menub(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+  </button> 
+ <div class="panel">
+  <a href="Site.html"><p class="panelitem">Home</p></a>
+  <a href="sobre.html"><p class="panelitem">Sobre</p></a>
+ </div>
+</div>
+
+<div>-</div>
+<div>-</div>
+<div>-</div>
+
+<div class="title"><h1>As melhores do Trap de SAJ</h></div>
+<p class="autor_txt" style="font-size:15px;"> 23/02/2002</p>
+<hr size="1">
+
+
+<center><img src="frame4_img.png" alt="frame1_img"><center>
+</br>
+</br>	
+<p class="txt">A equipe do <b>Kebrada</b> elaborou uma playlist com as mais tocadas do trap santoantoniense. Trazendo nomes como <b><a href="https://www.instagram.com/4weedd/" target="_blank">4Weed</b>, <b><a href="https://www.instagram.com/7k.mob/" target="_blank">7k.mob</b>, <b><a href="https://www.instagram.com/vetinsossa/" target="_blank">Kauê</b></a> e muito mais.
+</br>
+</br>	
+</br>	
+<center><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0xaZwBmrWSCWz6r8wMELOu?utm_source=generator" width="800px" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><center>
+
+<h1 class="title">Dê seu Feedback</h1>
+ <form action="mailto:notapandabeats@gmail.com" method="post" enctype="text/plain">
+  <input type="text" name="firstname" placeholder="nome/apelido">
+      <BR>
+      <BR>
+  <input type="email" name="mail" placeholder="e-mail">
+      <BR>
+      <BR>
+      <BR>        
+  <textarea rows="6" cols="50" name="commentfield" placeholder="Dê seu feedback"></textarea>
+        <BR>
+ <p class="title">O que achou do artigo ?</p>
+  <SELECT name="rate">
+   <option value="ruim">Ruim</option>
+    <option value="boa">Boa</option>
+    <option value="otima">Ótima</option>
+    <option value="incrivel">Incrível</option>
+  </SELECT>
+        <BR>
+        <BR>
+        <INPUT TYPE="submit" value="Enviar">
+        <INPUT TYPE="reset" value="Limpar">
+    </FORM>
+<script>
+var acc = document.getElementsByClassName("menub");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
