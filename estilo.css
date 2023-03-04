@@ -1,105 +1,213 @@
-
-. preto {
-            cor de fundo : preto;
-        }
-              . azul {
-            cor de fundo : azul;
-        }
-        . vermelho {
-            plano de fundo :  # FF0000 ;
-        }
-        . verde {
-            plano de fundo :  rgb ( 0 , 255 , 0 );
-        }
-
- @import  url (tiny.css) ( largura mínima : 300 px );
- @import  url (small.css) ( largura mínima : 600 px );
- @import  url (big.css) ( largura mínima : 900 px );
-
-@tela de mídia e ( largura máxima :  300 px ) {
- /* estilos */
-}
-@tela de mídia e ( largura máxima :  600 px ) {
-/* Estilos */
+.preto {
+  background-color: black;
 }
 
-tela @media e
-( largura mínima :  200 px ) e
-( largura máxima :  640 px )
-
-tela @media e
-( largura mínima :  600 px ) e
-( orientação : paisagem)
-
-tela @media e
-( largura máxima :  380 px ) e
-( orientação : retrato)
-
-          
-div {
-      largura máxima :  150 px ;
- alinhamento vertical : meio;
+.azul {
+  background-color: blue;
 }
 
-                 
-           
+.vermelho {
+  background: #FF0000;
+}
+
+.verde {
+  background: rgb(0, 255, 0);
+}
+
+@import url(tiny.css) (min-width:300px);
+@import url(small.css) (min-width:600px);
+@import url(big.css) (min-width:900px);
+
+@media screen and (max-width: 300px) {
+  /* estilos */
+}
+
+@media screen and (max-width: 600px) {
+  /* Estilos */
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  /* Estilos */
+}
+
+@media screen and (min-width: 600px) and (orientation:landscape) {
+  /* Estilos */
+}
+
+@media screen and (max-width: 380px) and (orientation:portrait) {
+  /* Estilos */
+}
+
+div {}
+
+.divs {
+  width: 200px;
+  height: 300px;
+}
+
+.divAbsolute {
+  background-color: darkcyan;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+.divRelative {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  top: 23%;
+  left: 0.5%;
+}
+
+.divFixed UL LI {
+
+  position: fixed;
+
+  display: inline-block;
+  padding-right: 4px;
+}
+
+.topo {
+  background-color: rgb(92, 6, 6);
+  position: static;
+  text-align: center;
+  font-size: 25px;
+  font-family:calibri;
+  color: #f7fbfe;
+  background-color: #168607;
+  width: 99%;
+  /*69% canto direito*/
+  height: 19%;
+  /*80% canto abaixo*/
+  position: absolute;
+  top: 0.5%;
+
+  box-shadow: 2px 2px 5px #4F4F4F;
 
 }
 
-    . divisões {
-            largura :  200 px ;
-            altura :  300 px ;
-        }
-        . divAbsoluto {
-            cor de fundo : darkcyan;
-            posição : absoluto;
-            superior : 80 px ;
-            esquerda : 30 px ;
-        }
-        . divRelativo {
-            cor de fundo : burlywood;
-            posição : relativa;
-            superior : 120 px ;
-            esquerda : 300 px ;
-        }
-        . divFixed  UL  LI {
-           
-            posição : fixo;
-            
-           exibição : bloco em linha;
-           padding-right :  4 px ;
-        }
-        . divStatic {
-            cor de fundo : verde escuro;
-            posição : estático;
-            superior :  300 px ;
-            esquerda :  300 px ;
-        }
-        . divSticky  UL  LI {
-            
-            posição : pegajoso;
-            superior :  0 px ;
-         
-           exibição : bloco em linha;
-           padding-right :  4 px ;
+.divSticky UL LI {
 
-        }
-        . divEsquerda {
-            cor de fundo : azul violeta;
-            cor : branco;
-            flutuar : esquerda;
-        }
-        . divDireita {
-            cor de fundo : azul escuro;
-            cor : branco;
-            flutuar : direita;
-        }
-        . divAlignCenter {
-            margem :  0 automático;
-           largura :  50 % ;
-           
-         
-         }
-         . claro {
-             claro : ambos;
-         }
+  position: sticky;
+  top: 15%;
+
+  width: 100%;
+  display: inline-block;
+  padding-right: 4px;
+
+}
+
+.divEsquerda {
+  background-color: blueviolet;
+  color: white;
+  float: left;
+}
+
+.divDireita {
+  background-color: darkblue;
+  color: white;
+  float: right;
+}
+
+.divAlignCenter {
+  margin: 0 auto;
+  width: 50%;
+
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  background-image: url("JAYELE MOURA SOUSA/projeto/ifba.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home1 {
+  background-color: #000000;
+  font-size: 20px;
+  height: 82%;
+  /*80% canto abaixo*/
+  position: relative;
+  top: 20%;
+  left: 0.5%;
+  width: 20%;
+  /*canto direito*/
+  box-shadow: 2px 2px 5px black;
+}
+
+.home2 {
+
+  right: auto;
+  width: 78%;
+  /*69% canto direito*/
+  height: 80%;
+  /*80% canto abaixo*/
+  position: absolute;
+  top: 20%;
+  left: 21.5%;
+  /*canto esquerdo*/
+  box-shadow: 2px 2px 5px #4F4F4F;
+}
+
+
+@import url(tiny.css) (min-width:300px);
+@import url(small.css) (min-width:600px);
+@import url(big.css) (min-width:900px);
+
+@media screen and (max-width: 300px) {
+  /* estilos */
+}
+
+@media screen and (max-width: 600px) {
+  /* Estilos */
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  /* Estilos */
+}
+
+@media screen and (min-width: 600px) and (orientation:landscape) {
+  /* Estilos */
+}
+
+@media screen and (max-width: 380px) and (orientation:portrait) {
+  /* Estilos */
+}
+
+
+
+
+.text {
+  color: #0cd1d1;
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 60px;
+}
+
+.buttoni {
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: white;
+  padding: 16px 32px;
+  text-align: left;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttoni1 {
+  background-color: #1C1C1C;
+  color: #f7fbfe;
+}
+
+.buttoni1:hover {
+  background-color: #1C1C1C;
+  color: #808080;
+}
