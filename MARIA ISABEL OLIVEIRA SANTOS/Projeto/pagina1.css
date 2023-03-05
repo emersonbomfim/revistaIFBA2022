@@ -1,0 +1,74 @@
+   *{
+	   margin: 0;
+	   padding: 0;
+	   box-sizing: border-box;
+   }
+	
+	body{
+        font-family: verdana; 
+		background-color: #f2f2f2;
+			 }
+	
+	.caixa{
+		margin: auto;
+	} 
+	div{
+		width: 85%;
+		background-color: #fff;
+		padding: 3em;
+		box-shadow: 0 0 2.2em rgba(0, 0, 0, .2);
+	}
+	header{
+		 text-align: center;
+	}
+	
+	main{
+		margin-top: 4em;
+	}
+	 
+	article{
+		width: 95%;
+	}
+	
+	article img{
+		width: 55%;
+		float: right;
+		margin: 0 0 2.5em 2em;
+		box-shadow: 5px 5px 15px rgba(0, 0, 0.39);
+	}
+	p{
+		font-size: 1.5rem;
+		line-height: 160%;
+		margin-bottom: 1em;
+	}
+	hr {
+	    width: 85%;
+		margin: 4em auto;
+		border: 1.5px solid;
+		box-shadow: 0 0 2.2em rgba(0, 0, 0, .2);
+	}
+	
+	h4{
+		line-height: 160%;
+		margin-bottom: 1em;
+	}
+	
+	h3{
+		line-height: 160%;
+		margin-bottom: 1em;
+	}
+	
+	h1 {
+		line-height: 160%;
+		margin-bottom: 1em;
+	}
+	
+	.outro {
+		float: left;
+		margin-right: 2.5em;
+		margin-left: 0;
+	}
+	
+	.outro1 {
+		text-align: left;
+	}
