@@ -96,8 +96,9 @@
 .canto {
 
   position: fixed;
-  width: 4%;  
+  width: 18%;  
   left: 1%;
+  background-color: #f7fbfe;
 
 }
 .topo {
