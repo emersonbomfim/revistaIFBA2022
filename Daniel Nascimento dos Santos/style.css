@@ -1,0 +1,513 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.background{
+    background-image: url(Santo\ Antônio.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transform: .4s;
+}
+
+.btn{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.Main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.Main span{
+    color: #f9004d;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3{
+    color:  #ffffff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.Container-btn form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.Container-btn form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    border-radius: 30px;
+    outline: none;
+}
+
+.Container-btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    right: 6px;
+    top: 6px;
+    
+}
+
+.background-color-Sobre{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.background-color-Sobre img{
+    width: 430px;
+    height: auto;
+}
+
+.bakground-saj-color img{
+    width: 550px;
+    height: auto;
+}
+
+.background-cidade img{
+    width: 550px;
+    height: auto;
+}
+
+.background-history img{
+    width: 430px;
+    height: auto;
+}
+
+.background-palmeiras img{
+    width: 550px;
+    height: auto;
+}
+
+.background-praça img{
+    width: 550px;
+    height: auto;
+}
+
+.background-igreja img{
+    width: 550px;
+    height: auto;
+}
+
+.background-batista img{
+    width: 470px;
+    height: auto;
+}
+
+.Felix-Gaspar img{
+    width: 550px;
+    height: auto;
+}
+
+.Felix img{
+    width: 550px;
+    height: auto;
+}
+
+.Colegio img{
+    width: 550px;
+    height: auto;
+}
+
+.Colegio-saj img{
+    width: 550px;
+    height: auto;
+}
+
+.Ruy-Barbosa img{
+    width: 550px;
+    height: auto;
+}
+
+.Ruy-Barbosa-saj img{
+    width: 550px;
+    height: auto;
+}
+
+.Text-sobre{
+    width: 550px;
+  }
+
+.text{
+    width: 550px;
+}  
+
+.main-sobre{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 1130px;
+   margin: 0 auto;
+}
+
+.main-text{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 1130px;
+   margin: 0 auto;
+}
+
+.main-cidade{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 1130px;
+   margin: 0 auto;
+}
+
+.main-palmeiras{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.main-praca{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.main-igreja{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.main-batista{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.main-felix{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.felix{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.colegio{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.colegio2-saj{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.ruy{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.ruy-saj{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.Text-sobre h2{
+    color: #fff;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.Text-sobre h5{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.Text-sobre p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.text p{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.text h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.main-cidade p{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.main-igreja p{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #f9004d;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.Container-serviços{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.history{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h5{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.Paragrafo-button{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.Paragrafo-button button{
+    margin-top: 25px;
+}
+
+.me-contate {
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.me-contate p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.Redes-sociais{
+    display: flex;
+    
+}
+
+.Redes-sociais a{
+    background-color: #f9004d;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Redes-sociais a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px ;
+}
+
+.video title p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.video video{
+    width: 550px;
+    height: auto;
+}
+
+.video video{
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.back a{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .6s;
+}
+
+.back a:hover{
+    transform: scale(2.4);
+}
