@@ -38,8 +38,6 @@
   /* Estilos */
 }
 
-div {}
-
 .divs {
   width: 200px;
   height: 300px;
@@ -53,10 +51,38 @@ div {}
 }
 
 .divRelative {
+  /*base de baixo*/
   background-color: rgb(0, 0, 0);
   position: relative;
-  top: 23%;
-  left: 0.5%;
+  top: 109.5%;
+  left: 0.1%;
+  height: 12%;
+  width: 100.2%;
+
+  @import url(tiny.css) (min-width:300px);
+  @import url(small.css) (min-width:600px);
+  @import url(big.css) (min-width:900px);
+
+  @media screen and (max-width: 300px) {
+    /* estilos */
+  }
+
+  @media screen and (max-width: 600px) {
+    /* Estilos */
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 640px) {
+    /* Estilos */
+  }
+
+  @media screen and (min-width: 600px) and (orientation:landscape) {
+    /* Estilos */
+  }
+
+  @media screen and (max-width: 380px) and (orientation:portrait) {
+    /* Estilos */
+  }
+
 }
 
 .divFixed UL LI {
@@ -67,23 +93,53 @@ div {}
   padding-right: 4px;
 }
 
+.canto {
+
+  position: fixed;
+  width: 4%;  
+  left: 1%;
+
+}
 .topo {
+
   background-color: rgb(92, 6, 6);
   position: static;
   text-align: center;
-  font-size: 25px;
-  font-family:calibri;
+  font-size: 21px;
+  font-family: calibri;
   color: #f7fbfe;
   background-color: #168607;
   width: 99%;
   /*69% canto direito*/
-  height: 19%;
+  height: 16%;
   /*80% canto abaixo*/
   position: absolute;
-  top: 0.5%;
-
+  top: 0.1%;
   box-shadow: 2px 2px 5px #4F4F4F;
 
+  @import url(tiny.css) (min-width:300px);
+  @import url(small.css) (min-width:600px);
+  @import url(big.css) (min-width:900px);
+
+  @media screen and (max-width: 300px) {
+    /* estilos */
+  }
+
+  @media screen and (max-width: 600px) {
+    /* Estilos */
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 640px) {
+    /* Estilos */
+  }
+
+  @media screen and (min-width: 600px) and (orientation:landscape) {
+    /* Estilos */
+  }
+
+  @media screen and (max-width: 380px) and (orientation:portrait) {
+    /* Estilos */
+  }
 }
 
 .divSticky UL LI {
@@ -129,28 +185,82 @@ body {
 .home1 {
   background-color: #000000;
   font-size: 20px;
-  height: 82%;
-  /*80% canto abaixo*/
-  position: relative;
-  top: 20%;
+  top: 13%;
   left: 0.5%;
-  width: 20%;
   /*canto direito*/
   box-shadow: 2px 2px 5px black;
+  position: static;
+  text-align: center;
+  font-size: 24px;
+  font-family: calibri;
+  color: #f7fbfe;
+  width: 99%;
+  /*69% canto direito*/
+  height: 15%;
+  /*80% canto abaixo*/
+  position: absolute;
+
+  @import url(tiny.css) (min-width:300px);
+  @import url(small.css) (min-width:600px);
+  @import url(big.css) (min-width:900px);
+
+  @media screen and (max-width: 300px) {
+    /* estilos */
+  }
+
+  @media screen and (max-width: 600px) {
+    /* Estilos */
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 640px) {
+    /* Estilos */
+  }
+
+  @media screen and (min-width: 600px) and (orientation:landscape) {
+    /* Estilos */
+  }
+
+  @media screen and (max-width: 380px) and (orientation:portrait) {
+    /* Estilos */
+  }
+
 }
 
 .home2 {
-
+  top: 28%;
   right: auto;
-  width: 78%;
+  width: 99%;
   /*69% canto direito*/
-  height: 80%;
+  height: 79%;
   /*80% canto abaixo*/
   position: absolute;
-  top: 20%;
-  left: 21.5%;
+  left: 0.5%;
   /*canto esquerdo*/
   box-shadow: 2px 2px 5px #4F4F4F;
+
+  @import url(tiny.css) (min-width:300px);
+  @import url(small.css) (min-width:600px);
+  @import url(big.css) (min-width:900px);
+
+  @media screen and (max-width: 300px) {
+    /* estilos */
+  }
+
+  @media screen and (max-width: 600px) {
+    /* Estilos */
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 640px) {
+    /* Estilos */
+  }
+
+  @media screen and (min-width: 600px) and (orientation:landscape) {
+    /* Estilos */
+  }
+
+  @media screen and (max-width: 380px) and (orientation:portrait) {
+    /* Estilos */
+  }
 }
 
 
