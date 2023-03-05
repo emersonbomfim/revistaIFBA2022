@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sobre você</title>
+<style>
+    .exemplo {
+        background: #7F7F7F;
+        font-size: 70px;
+        padding: 50px;
+        margin: 20px;
+        color:#FFF2E7;
+        border: 7px solid ;
+		font-family: 'Sarala', sans-serif;
+    }
+    p {
+        margin: 0px;
+    }
+</style>
+</head>
+<style>
+    body{
+        background-color: #9e9e9e;
+    }
+
+    .texto {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 20px;
+    }
+	
+    table{
+    margin: 10px 25px;
+    padding: 5px 25px;
+	border: 2px 2px 5px white;
+  
+    }
+</style>
+<body>
+    <div class="exemplo">
+        <p>
+            <center>Sobre você</center>
+        </p>
+    </div>
+</body>
+<body>
+</ul>
+</p>
+<br>
+<center><table border="rowspan">
+<tr><td class="texto">O projeto interdisciplinar foi feito por estudantes do primeiro semestre, do curso de Produção Multimídia, IFBA- Campus Santo Antônio de Jesus, e orientados pelos educadores de cada área. O intuito  desta  revista é  falar sobre “O Empreendedorismo feminino em Santo Antônio de Jesus". <br>
+Com o aumento das iniciativas empreendedoras, as mulheres têm conquistado cada vez mais seu lugar no mercado econômico. Este tema é extremamente importante para nós, pois representa um número crescente de mulheres comprometidas com o sucesso. Por isso, decidimos escolher esse tema porque entendemos sua importância e o quanto as mulheres têm conquistado cada vez mais seu lugar no mundo dos negócios, levando a um maior poder econômico e autonomia.
+
+<br>Através dessa página vamos contar a história de uma empreendedora local e desejamos que essa página venha a inspirar todas as mulheres que querem iniciar seu próprio negócio.</tr></td>
+</table>
+</ol></center>
+<br>
+<center><a href="Html - projeto.html" style="color:#FFF2E7">Voltar</a></center>
+</body>
+</html>
